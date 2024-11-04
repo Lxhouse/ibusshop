@@ -120,16 +120,8 @@ export const WarningStatus: Story = {
 export const Sizes: Story = {
   render: () => (
     <>
-      <Input
-        size="small"
-        defaultValue="Small Size"
-        style={{ marginBottom: '1rem' }}
-      />
-      <Input
-        size="middle"
-        defaultValue="Middle Size"
-        style={{ marginBottom: '1rem' }}
-      />
+      <Input size="small" defaultValue="Small Size" />
+      <Input size="middle" defaultValue="Middle Size" />
       <Input size="large" defaultValue="Large Size" />
     </>
   ),
@@ -138,16 +130,8 @@ export const Sizes: Story = {
 export const Variants: Story = {
   render: () => (
     <>
-      <Input
-        variant="outlined"
-        defaultValue="Outlined Variant"
-        style={{ marginBottom: '1rem' }}
-      />
-      <Input
-        variant="borderless"
-        defaultValue="Borderless Variant"
-        style={{ marginBottom: '1rem' }}
-      />
+      <Input variant="outlined" defaultValue="Outlined Variant" />
+      <Input variant="borderless" defaultValue="Borderless Variant" />
       <Input variant="filled" defaultValue="Filled Variant" />
     </>
   ),
