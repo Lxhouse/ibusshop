@@ -1,0 +1,82 @@
+/* Input.scss */
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+
+  .input-addon {
+    padding: 0 8px;
+
+    &.before {
+      border-right: 1px solid #ccc;
+    }
+
+    &.after {
+      border-left: 1px solid #ccc;
+    }
+  }
+
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+
+    .input-prefix,
+    .input-suffix {
+      padding: 0 8px;
+    }
+
+    .input-clear {
+      cursor: pointer;
+      padding: 0 8px;
+      color: #888;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #d9d9d9;
+      border-radius: 4px;
+
+      &.large {
+        padding: 12px;
+      }
+
+      &.small {
+        padding: 4px;
+      }
+    }
+  }
+
+  &.outlined .input-field {
+    border: 1px solid #d9d9d9;
+  }
+
+  &.borderless .input-field {
+    border: none;
+  }
+
+  &.filled .input-field {
+    background-color: #f0f0f0;
+  }
+
+  &.error .input-field {
+    border-color: #ff4d4f;
+  }
+
+  &.warning .input-field {
+    border-color: #faad14;
+  }
+
+  .input-count {
+    margin-left: 8px;
+    font-size: 12px;
+    color: #888;
+  }
+}
