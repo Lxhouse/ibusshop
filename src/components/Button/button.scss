@@ -3,6 +3,11 @@
 @use '../../styles/functions';
 
 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px; /* 控制按钮高度 */
+  line-height: 1; /* 使按钮内容垂直居中 */
   padding: $spacing-sm $spacing-md;
   font-size: $font-size-base;
   border: none;

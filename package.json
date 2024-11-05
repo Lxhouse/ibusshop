@@ -2,7 +2,15 @@
   "name": "ibusshop",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.80.6"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,11 +18,23 @@
     "@types/node": "^16.18.119",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "typescript": "^4.9.5",
+    "classnames": "^2.5.1",
+    "eslint-plugin-storybook": "^0.10.2",
+    "prop-types": "^15.8.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.96.1",
     "react-scripts": "5.0.1",
-    "sass": "^1.80.6",
-    "typescript": "^4.9.5"
+    "storybook": "^8.4.1",
+    "@chromatic-com/storybook": "^3.2.2",
+    "@storybook/addon-essentials": "^8.4.1",
+    "@storybook/addon-interactions": "^8.4.1",
+    "@storybook/addon-onboarding": "^8.4.1",
+    "@storybook/blocks": "^8.4.1",
+    "@storybook/preset-create-react-app": "^8.4.1",
+    "@storybook/react": "^8.4.1",
+    "@storybook/react-webpack5": "^8.4.1",
+    "@storybook/test": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,22 +66,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.2",
-    "@storybook/addon-essentials": "^8.4.1",
-    "@storybook/addon-interactions": "^8.4.1",
-    "@storybook/addon-onboarding": "^8.4.1",
-    "@storybook/blocks": "^8.4.1",
-    "@storybook/preset-create-react-app": "^8.4.1",
-    "@storybook/react": "^8.4.1",
-    "@storybook/react-webpack5": "^8.4.1",
-    "@storybook/test": "^8.4.1",
-    "classnames": "^2.5.1",
-    "eslint-plugin-storybook": "^0.10.2",
-    "prop-types": "^15.8.1",
-    "rimraf": "^3.0.2",
-    "storybook": "^8.4.1",
-    "webpack": "^5.96.1"
   }
 }

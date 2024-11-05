@@ -10,7 +10,8 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 import { jsx as _jsx } from "react/jsx-runtime";
+import Button from './components/Button';
 function App() {
-    return (_jsx("div", __assign({ className: "App", style: { padding: 40 } }, { children: "\u7EC4\u4EF6\u5E93" })));
+    return (_jsx("div", __assign({ className: "App" }, { children: _jsx(Button, __assign({ type: "primary" }, { children: "lalla1" })) })));
 }
 export default App;
