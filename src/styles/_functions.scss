@@ -1,0 +1,12 @@
+// _functions.scss
+@use 'sass:color';
+@use 'variables' as *;
+
+// 调整颜色亮度
+@function lighten-color($color, $percent) {
+  @return color.adjust($color, $lightness: $percent);
+}
+
+@function darken-color($color, $percent) {
+  @return color.adjust($color, $lightness: -$percent);
+}

@@ -1,0 +1,29 @@
+// 定义全局字体样式。
+// _typography.scss
+@use 'variables' as *;
+@use 'functions';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-weight-bold;
+  margin-bottom: $spacing-sm;
+  color: $primary-color;
+}
+
+p {
+  margin-bottom: $spacing-md;
+  line-height: 1.6;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    color: functions.darken-color($primary-color, 10%);
+  }
+}

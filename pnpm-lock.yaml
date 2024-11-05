@@ -26,9 +26,6 @@ dependencies:
   '@types/react-dom':
     specifier: ^18.3.1
     version: 18.3.1
-  classnames:
-    specifier: ^2.5.1
-    version: 2.5.1
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -44,9 +41,6 @@ dependencies:
   typescript:
     specifier: ^4.9.5
     version: 4.9.5
-  web-vitals:
-    specifier: ^2.1.4
-    version: 2.1.4
 
 devDependencies:
   '@chromatic-com/storybook':
@@ -76,12 +70,18 @@ devDependencies:
   '@storybook/test':
     specifier: ^8.4.1
     version: 8.4.1(storybook@8.4.1)
+  classnames:
+    specifier: ^2.5.1
+    version: 2.5.1
   eslint-plugin-storybook:
     specifier: ^0.10.2
     version: 0.10.2(eslint@8.57.1)(typescript@4.9.5)
   prop-types:
     specifier: ^15.8.1
     version: 15.8.1
+  rimraf:
+    specifier: ^3.0.2
+    version: 3.0.2
   storybook:
     specifier: ^8.4.1
     version: 8.4.1
@@ -4466,7 +4466,7 @@ packages:
 
   /classnames@2.5.1:
     resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
-    dev: false
+    dev: true
 
   /clean-css@5.3.3:
     resolution: {integrity: sha512-D5J+kHaVb/wKSFcyyV75uCn8fiY4sV38XJoe4CUyGQ+mOU/fMVYUdH1hJC+CJQ5uY3EnW27SbJYS4X8BiLrAFg==}
@@ -10581,10 +10581,6 @@ packages:
     resolution: {integrity: sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==}
     dependencies:
       minimalistic-assert: 1.0.1
-
-  /web-vitals@2.1.4:
-    resolution: {integrity: sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==}
-    dev: false
 
   /webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}

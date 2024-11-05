@@ -1,16 +1,8 @@
-// config
-@import 'variables';
-
-//layout
-@import 'reboot';
-
-//mixin
-@import 'mixin';
-
-// button
-
-@import '../components/Button/index.scss';
-
-// // menu
-
-// @import '../components/Menu/style';
+// index.scss
+@use 'variables';
+@use 'mixins';
+@use 'functions';
+@use 'resets';
+@use 'typography';
+@use '../components/Button/Button' as *; // 如果你需要将 Button 组件样式引入
+@use '../components/Input/input.scss' as *; // 如果你需要将 Button 组件样式引入

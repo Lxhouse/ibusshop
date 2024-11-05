@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import Button from './index';
+import Button from './button';
 import '../../styles/index.scss';
 import { fn } from '@storybook/test';
 const meta = {

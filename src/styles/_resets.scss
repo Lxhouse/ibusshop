@@ -1,0 +1,19 @@
+// 用于基础样式重置，确保不同浏览器之间的一致性。
+
+// _resets.scss
+@use 'variables' as *;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family-sans;
+  font-size: $font-size-base;
+  line-height: 1.5;
+  color: $primary-color;
+}
